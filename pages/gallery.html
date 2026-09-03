@@ -15,10 +15,13 @@
         content="Beautiful memories of Mukesh Sah"
     >
 
-    <link
-        rel="stylesheet"
-        href="../css/gallery.css"
-    >
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/mobile.css">
 </head>
 
 <body>
@@ -40,43 +43,10 @@
 
 
     <!-- =====================================================
-         HEADER
+         HEADER COMPONENT CONTAINER
     ====================================================== -->
 
-    <header class="gallery-header">
-
-        <a href="#" class="brand">
-
-            <span class="brand-mark">
-                ✦
-            </span>
-
-            <span class="brand-text">
-                MUKESH SAH
-            </span>
-
-        </a>
-
-
-        <div class="header-right">
-
-            <span class="header-label">
-                OUR MEMORIES
-            </span>
-
-            <button
-                class="menu-button"
-                type="button"
-                aria-label="Menu"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-        </div>
-
-    </header>
+    <div id="site-header"></div>
 
 
     <!-- =====================================================
@@ -141,8 +111,6 @@
 
             </div>
 
-
-            <!-- JS will create 20 mixed shape cards -->
 
             <div
                 id="memoryWall"
@@ -431,6 +399,15 @@
     </div>
 
 
+    <!-- =====================================================
+         FOOTER COMPONENT CONTAINER
+    ====================================================== -->
+
+    <div id="site-footer"></div>
+
+
+    <!-- JS Files -->
+    <script src="../js/main.js"></script>
     <script src="../js/gallery.js"></script>
 
 </body>
